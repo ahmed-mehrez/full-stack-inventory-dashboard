@@ -38,3 +38,22 @@ full-stack-inventory-dashboard/
 │   └── server.js
 ├── .gitignore
 └── README.md
+
+## API Endpoints
+
+GET    /api/inventory       Get all inventory items  
+POST   /api/inventory       Add a new inventory item  
+PUT    /api/inventory/:id   Update an existing inventory item  
+DELETE /api/inventory/:id   Delete an inventory item
+
+## What I Built
+
+I developed the application structure, including the React front end, Express back end, REST API routes, form validation, search functionality, responsive styling, and Git/GitHub project organization.
+
+## Future Improvements
+
+- Connect the API to a PostgreSQL or MySQL database
+- Add user authentication
+- Add item edit/delete buttons in the user interface
+- Add dashboard analytics
+- Deploy the front end and back end online
